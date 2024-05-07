@@ -23,3 +23,6 @@ Graphs are used in Neural Networks where vertices represent neurons and edges re
 
 In this code base there is also a method for detecting if there is a cycle in the Graph, it returns a boolean value. 
 cycleDetected(). 
+
+Topological Sort is used for Directed Acyclic graphs, it is applied in situations in which a bunch of tasks connected 
+in  Graph are to be completed in a particular order.
