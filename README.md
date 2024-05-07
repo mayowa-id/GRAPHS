@@ -15,8 +15,11 @@ removeNode() - Deletion of Nodes/Edges in the graph
 depyhFirstTraversal() -  Traversal of Graphs 
 
 Graphs are useful in real life in the following ways:
- Graph data structures can be used to represent the interactions between players on a team, such as passes, shots, and tackles. Analyzing these interactions can provide insights into team dynamics and areas for improvement.
+
 Commonly used to represent social networks, such as networks of friends on social media.
 Graphs can be used to represent the topology of computer networks, such as the connections between routers and switches.
 Graphs are used to represent the connections between different places in a transportation network, such as roads and airports.
-Graphs are used in Neural Networks where vertices represent neurons and edges represent the synapses between them. Neural networks are used to understand how our brain works and how connections change when we learn.
+Graphs are used in Neural Networks where vertices represent neurons and edges represent the synapses between them.
+
+In this code base there is also a method for detecting if there is a cycle in the Graph, it returns a boolean value. 
+cycleDetected(). 
